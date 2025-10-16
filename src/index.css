@@ -1,0 +1,32 @@
+/* Montserrat Font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Tailwind Css */
+@import "tailwindcss";
+
+@theme {
+  --color-primary: var(--color-primary);
+  --font-sans: var(--font-sans);
+  --color-muted: var(--color-muted);
+  --container-sm: var(--container-sm);
+  --color-accent: var(--color-accent);
+  --color-border: var(--color-border);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+:root {
+  --font-sans: "Montserrat", sans-serif;
+  --color-primary: #ffce22;
+  --color-accent: #5087f8;
+  --color-muted: #cdcdcd;
+  --container-sm: 370px;
+  --color-border: #e3e3e3;
+  --background: #fff;
+  --foreground: #1f2128;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
